@@ -203,3 +203,54 @@
   text-align: center;
   margin-top: 20px;
 }
+
+		
+/*Portfolio*/
+.gallery_name {
+  height: 200px;
+  margin: 30px auto;
+}
+
+.gallery_name > h1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.gallery_name > h5 {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.portfolio > .container {
+  margin-bottom: 10px;
+  margin: auto;
+  padding: 20px;
+}
+
+.portfolio > .container > .photo {
+  margin: auto;
+  padding: 60px;
+  overflow: hidden;
+  height: 400px !important;
+}
+
+.photo > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.photo > h2 {
+  text-align: center;
+  color: #000;
+  padding: auto;
+  margin: auto;
+}
+
+.photo > h4 {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
