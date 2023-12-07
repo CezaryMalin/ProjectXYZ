@@ -180,6 +180,7 @@
   font-weight: 700;
   text-align: center;
   padding: 20px 20px 20px 20px;
+  
 }
 
 .box> i {
@@ -194,6 +195,10 @@
 .btitle {
   margin-top: 40px;
   text-align: center;
+}
+
+.box {
+  float: left;
 }
 
 .box >.text {
@@ -235,6 +240,7 @@
   padding: 60px;
   overflow: hidden;
   height: 400px !important;
+  float:left;
 }
 
 .photo > img {
@@ -254,3 +260,81 @@
   text-align: center;
   color: black;
 }
+
+@media (max-width: 767px) {
+  .footer {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+  }
+
+  .footer .social-icons {
+      margin-top: 20px;
+  }
+}
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer .content {
+  background-color: #fff;
+  max-width: 100%;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+} 
+.logo_details {
+  float: left;
+}
+
+.content .top .media_icons {
+  display: flex;
+  float: left;
+}
+
+.content .top .media_icons i {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.content .top .media_icons a:nth-child(1) {
+  background: blue;
+  color:#fff;
+}
+
+.content .top .media_icons a:nth-child(1):hover {
+  background: #fff;
+  color: aqua;
+}
+
+.content .top .media_icons a:nth-child(2) {
+  background: blue;
+  color:#fff;
+}
+
+.content .top .media_icons a:nth-child(2):hover {
+  background: #fff;
+  color: aqua;
+}
+
+.content .top .media_icons a:nth-child(3) {
+  background: blue;
+  color:#fff;
+}
+
+.content .top .media_icons a:nth-child(3):hover {
+  background: #fff;
+  color: aqua;
+}  
